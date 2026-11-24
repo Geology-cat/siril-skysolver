@@ -47,6 +47,6 @@ macOS の Siril 1.4.5 / sirilpy 1.0.26 で、SkySolver の実 API を使って�
 
 ## 未検証の範囲
 
-- Windows・Linux 上の Siril での実機動作（スクリプトは OS に依存しない標準ライブラリと sirilpy の API だけを使います。単体テストは GitHub Actions で macOS / Windows / Ubuntu の Python 3.9・3.12 で実行します）。
+- Windows・Linux 上の Siril での実機動作（スクリプトは OS に依存しない標準ライブラリと sirilpy の API だけを使います。単体テストは GitHub Actions で macOS / Windows / Ubuntu の Python 3.10・3.13 で実行し、すべて成功しています）。
 - 強い歪み（SIP）を持つ実画像での実 API 検証（SIP の扱いは単体テストで確認済み）。
 - PCC/SPCC の色補正そのもの、シーケンス、全天・魚眼の投影モデル。

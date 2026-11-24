@@ -2,7 +2,7 @@
 
 ## 単体テスト（Siril 不要・通信なし）
 
-Python 3.9 以上で実行できます。
+Python 3.10 以上で実行できます。
 
 ```sh
 python3 -m venv .venv
