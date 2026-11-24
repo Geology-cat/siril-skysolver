@@ -1,0 +1,3 @@
+requires 1.4.0
+load tests/data/apod4.jpg
+pyscript tests/integration_sky_check.py
